@@ -1,3 +1,4 @@
 
 wget -O - -q icanhazip.com
 89.250.167.230
+curl -4 icanhazip.com
