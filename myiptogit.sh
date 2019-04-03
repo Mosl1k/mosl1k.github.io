@@ -1,8 +1,8 @@
 #!/bin/bash
 
 wget -O - -q icanhazip.com >> ismyip.txt 
-`git add . `
-`git commit -am "ip" `
-`git push` 
+git add ismyip.txt 
+git commit -am nip
+git push 
 
 
