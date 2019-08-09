@@ -1,0 +1,2 @@
+file -i original_file.txt
+iconv -f WINDOWS-1251 -t UTF-8 -o output_file.txt original_file.txt
