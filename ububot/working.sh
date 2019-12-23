@@ -4,7 +4,7 @@
 
 #scrot /tmp/copycolor.png
 
-xdotool mousemove --sync 1062 207 
+#xdotool mousemove --sync 1062 207 
 gnome-screenshot -f /tmp/copycolor.png
 eval $(xdotool getmouselocation --shell)
 IMAGE=`convert /tmp/copycolor.png -depth 8 -crop 1x1+$X+$Y txt:-`
