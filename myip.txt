@@ -1,2 +1,4 @@
 
 wget -O - -q icanhazip.com
+
+curl -4 icanhazip.com
