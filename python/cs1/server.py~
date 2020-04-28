@@ -41,8 +41,7 @@ while True:
     else:
         print(data)
         #send - передает сообщение TCP
-#        conn.send(b'Hello from server!')
-        conn.send(b'--')
+        conn.send(b'Hello from server!')
         #close - закрывает сокет
         conn.close()
     
