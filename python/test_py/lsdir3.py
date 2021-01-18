@@ -7,10 +7,6 @@ from os.path import isfile, join
 from pathlib import Path
 
 scan_path = "/home/moslik/mosl1k.github.io/"
-#obj1 = []
-#obj2 = []
-#nf1 = []
-#nf2 = []
 fa4 = set()
 fa5 = set()
 now = datetime.datetime.now()

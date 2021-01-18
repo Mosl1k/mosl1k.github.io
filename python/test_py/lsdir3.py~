@@ -6,11 +6,7 @@ from os import listdir
 from os.path import isfile, join
 from pathlib import Path
 
-scan_path = "/home/moslik/mosl1k.github.io/python/"
-#obj1 = []
-#obj2 = []
-#nf1 = []
-#nf2 = []
+scan_path = "/home/moslik/mosl1k.github.io/"
 fa4 = set()
 fa5 = set()
 now = datetime.datetime.now()
@@ -33,7 +29,7 @@ b=(fa4-fa5)
 c=(fa5-fa4)
 if c==set(): print("del: ", b) #b!=set() and a==b and 
 if b==set() and a==c: print("add: ", c) #a==c and 
-if c!=set() and a!=c: print("corr: ",c) #a>=b and a>=c and 
+if c!=set() and a!=c: print("corr: ",c[0]) #a>=b and a>=c and 
 
 now2 = datetime.datetime.now()
     

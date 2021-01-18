@@ -1,0 +1,6 @@
+2,3c2,3
+< -rwxr-xr-x 1 moslik moslik 2059 июн  1  2020 gsi.sh
+< -rwxr-xr-x 1 moslik moslik 8692 июн  1  2020 init.sh
+---
+> -rwxr-xr-x 1 moslik moslik 2058 апр 26 00:02 gsi.sh
+> -rwxr-xr-x 1 moslik moslik 8690 апр 26 00:02 init.sh
