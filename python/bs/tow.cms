@@ -1,0 +1,19 @@
+// 02.05.2020
+#name "to_whatsapp"
+#autorun
+$win = WNDFIND("WhatsApp", 0)
+wait(1)
+WNDSTATE($win, 1)
+wait(1)
+toclip("porez")
+KEYDOWN(#CTRL)
+wait(1)
+KEYPRESS(#V)
+wait(1)
+KEYUP(#CTRL)
+wait(1)
+KEYPRESS(#ENTER)
+wait(2)
+WNDSTATE($win, 0)
+wait(2)
+HALT(1)
